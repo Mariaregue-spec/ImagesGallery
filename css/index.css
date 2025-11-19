@@ -12,3 +12,26 @@ header{
     color: beige;
     font-size: 2rem;
 }
+.Gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+.Gallery img {
+    width: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.Gallery img:hover{
+    transform: scale(1.50);
+}
+footer{
+    text-align: center;
+    padding: 25px;
+    margin: 0;
+    background: rgb(43, 43, 65);
+    color: beige;
+
+}
